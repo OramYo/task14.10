@@ -196,3 +196,17 @@ a:hover {
   transition-duration: 0.1s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   /*transform: translateY(2px);*/
+/* Personal page */
+body { background: #f5f7fa; color: #192a38; font-family: Arial, sans-serif; line-height: 1.8; }
+.box { min-height: 100vh; height: auto; }
+.content-text { text-align: right; max-width: 780px; margin: 48px auto; padding: 32px; background: white; border-radius: 14px; font-family: inherit; }
+h1 { font-size: 2.7rem; margin: 0; color: #174c6b; }
+h2 { font-size: 1.3rem; margin-bottom: 8px; }
+.eyebrow { color: #526b7c; text-align: right; }
+.intro { font-size: 1.15rem; }
+hr { border: 0; border-top: 1px solid #dce4ea; margin: 28px 0; }
+a:link, a:visited { color: #176492; }
+a:hover { color: #123e5b; }
+a:focus-visible { outline: 3px solid #e3a322; outline-offset: 4px; }
+.footer { background: #e5edf3; padding: 12px; line-height: 1.8; }
+@media (max-width: 600px) { .content-text { margin: 16px; padding: 22px; } h1 { font-size: 2rem; } }
